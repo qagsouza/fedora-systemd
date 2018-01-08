@@ -3,4 +3,4 @@
 FROM fedora:26
 ENV container docker
 STOPSIGNAL SIGRTMIN+3
-CMD [ "/sbin/init" ]
+ENTRYPOINT [ "/sbin/init" ]
